@@ -22,9 +22,9 @@ This project is created using the following technologies:
 1. Java 8
 2. Spring Boot in cloud-native development:
 	
-	+ **Spring Cloud Netflix Eureka** – Registration and Discovery service for all microservices
-	+ **Spring Cloud Netflix Zuul** – API Gateway service that provides dynamic routing, and load balancer
-	+ **Spring Cloud Netflix Feign** – Declarative REST client
+	+ **Spring Cloud Netflix Eureka** â€“ Registration and Discovery service for all microservices
+	+ **Spring Cloud Netflix Zuul** â€“ API Gateway service that provides dynamic routing, and load balancer
+	+ **Spring Cloud Netflix Feign** â€“ Declarative REST client
 	
 3. Spring Boot in microservices development:
 	
@@ -173,9 +173,9 @@ To run this project, install it locally as follow:
 
 	You can run more instances of the microservices (User, Site, Organization):
 	
-	* Using eclipse just edit run command of your application (Run configurations…) and add VM parameter `-DPORT=…` or `-Dserver.port=…`.
+	* Using eclipse just edit run command of your application (Run configurationsâ€¦) and add VM parameter `-DPORT=â€¦` or `-Dserver.port=â€¦`.
 	
-	* Or using the `-Dserver.port=…` argument with the command: `java -jar target/service_name.jar -Dserver.port=…`
+	* Or using the `-Dserver.port=â€¦` argument with the command: `java -jar target/service_name.jar -Dserver.port=â€¦`
 
 	```bash
 	java -jar target/service_name-0.0.1-SNAPSHOT.jar -Dserver.port=8085
@@ -193,7 +193,7 @@ To access the applications use the following endpoints
 	
 	![Eureka Discovery Dashboard](EurekaDashboard.png)
 	
-	Now take a look on Eureka monitoring console: We’ve got one instance of Site and Organization microservices running on default ports (8082, 8083) and two instances of user microservice on (8081, 8085) ports registered on discovery server. 
+	Now take a look on Eureka monitoring console: Weâ€™ve got one instance of Site and Organization microservices running on default ports (8082, 8083) and two instances of user microservice on (8081, 8085) ports registered on discovery server. 
 
 * **API Gateway and Microservices**
 		
@@ -400,3 +400,5 @@ _**Any improvement or comment about the project is always welcome! As well as ot
 ## Acknowledgments
 
 Thanks for reading. Share it with someone you think it might be helpful.
+
+
